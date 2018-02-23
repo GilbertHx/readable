@@ -1,0 +1,64 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 190px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.container{
+  padding-top: 16px;
+}
+ul{
+  list-style-type: none;
+  padding: 0;
+}
+.author{
+  color: #2185d0 !important;
+  margin-right: 8px !important;
+}
+
+.form-group{
+  margin: 16px 0px !important;
+}
+.form-group label{
+  font-weight: bold;
+}
+.form-control, select{
+  margin: 4px 0px !important;
+}
+.ui.form{
+  max-width: 600px;
+}
+.text-help{
+  color: #db2828!important;
+  font-weight: 700;
+}
+.rmv-btn i {
+  transition: all .2s ease-in-out;
+}
+.rmv-btn:hover i {
+  color: #db2828!important;
+  transform: scale(1.2);
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
